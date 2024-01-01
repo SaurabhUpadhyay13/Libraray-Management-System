@@ -25,6 +25,7 @@ List Book: Choose from various options, such as viewing all books, borrowed book
 Statistics: Gain insights into the library's performance with a dedicated statistics feature.
 <br>
 <br>
+
 # Technologies Used
 <br>
 Python: The core programming language for the application's logic and functionality.
@@ -35,6 +36,7 @@ Tkinter: A Python library for creating interactive and visually appealing graphi
 <br>
 <br>
 <br>
+
 # 1. Books Table:
 <br>
 Purpose: This table is designed to store information about the books available in the library.
