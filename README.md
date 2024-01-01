@@ -59,8 +59,10 @@ book_status: Indicates whether the book is available for borrowing.
 Why Create It: The Books table is essential for maintaining a comprehensive catalog of all available books in the library, along with their key details.
 <br>
 <br>
+
 # 2. Members Table:
 <br>
+
 <br>
 Purpose: This table stores information about the members or patrons of the library.
 <br>
@@ -100,8 +102,10 @@ bbook_id (Foreign Key): Links to the Books table, indicating which book was borr
 Why Create It: The Borrows table helps in tracking the borrowing history of members, allowing the library to monitor book availability and manage due dates effectively.
 <br>
 <br>
+
 # 4. Returns Table:
 <br>
+
 <br>
 Purpose: This table records instances when a member returns a borrowed book.
 <br>
