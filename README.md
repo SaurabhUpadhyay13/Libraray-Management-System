@@ -1,5 +1,4 @@
 # Libraray-Management-System
-<br>
 Author-Saurabh Upadhyay
 <br>
 <br>
@@ -35,9 +34,7 @@ Tkinter: A Python library for creating interactive and visually appealing graphi
 <br>
 <br>
 <br>
-
 1. Books Table:
-<br>
 <br>
 Purpose: This table is designed to store information about the books available in the library.
 <br>
