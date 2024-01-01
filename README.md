@@ -7,6 +7,7 @@ Author-Saurabh Upadhyay
 
 Welcome to the Library Management System project! This Python-based application, utilizing MySQL for database management and the Tkinter library for the graphical user interface, is designed to streamline the operations of a library. Whether you're managing a personal collection or overseeing a larger library, this system aims to provide an efficient and user-friendly solution.
 <br>
+<br>
 Key Features
 <br>
 Add Book: Easily add new books to the library database with the click of a button.
@@ -37,6 +38,7 @@ Tkinter: A Python library for creating interactive and visually appealing graphi
 
 1. Books Table:
 <br>
+<br>
 Purpose: This table is designed to store information about the books available in the library.
 <br>
 Fields:
@@ -51,10 +53,13 @@ language: langauge in which the book is available in library.
 <br>
 book_status: Indicates whether the book is available for borrowing.
 <br>
+<br>
 Why Create It: The Books table is essential for maintaining a comprehensive catalog of all available books in the library, along with their key details.
 <br>
 <br>
-3. Members Table:
+2. Members Table:
+<br>
+<br>
 Purpose: This table stores information about the members or patrons of the library.
 <br>
 Fields:
@@ -65,13 +70,14 @@ member_name: Name of the member.
 <br>
 phone: Phone number of the member.
 <br>
+<br>
 Why Create It: The Members table helps in managing and tracking the information of individuals who are registered library members, facilitating efficient communication and record-keeping.
 <br>
 <br>
 3. Borrows Table:
 <br>
-Purpose: This table is responsible for recording instances when a member borrows a book from the library.
 <br>
+Purpose: This table is responsible for recording instances when a member borrows a book from the library.
 <br>
 Fields:
 <br>
@@ -81,10 +87,12 @@ bmember_id (Foreign Key): Links to the Members table, indicating which member bo
 <br>
 bbook_id (Foreign Key): Links to the Books table, indicating which book was borrowed.
 <br>
+<br>
 Why Create It: The Borrows table helps in tracking the borrowing history of members, allowing the library to monitor book availability and manage due dates effectively.
 <br>
 <br>
-5. Returns Table:
+4. Returns Table:
+<br>
 <br>
 Purpose: This table records instances when a member returns a borrowed book.
 <br>
@@ -97,6 +105,7 @@ rborrow_id (Foreign Key): Links to the Borrows table, indicating the original bo
 rmember_id: indicating the original borrowing member_id.
 <br>
 return_date: Date when the book was returned
+<br>
 <br>
 Why Create It: The Returns table complements the Borrows table, providing a log of returned books. It helps in calculating any overdue fines, updating book availability, and maintaining accurate records of the library's collection.
 <br>
