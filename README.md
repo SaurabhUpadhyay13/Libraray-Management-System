@@ -115,7 +115,7 @@ Fields:
 <br>
 return_id (Primary Key): Unique identifier for each return transaction.
 <br>
-rborrow_id (Foreign Key): Links to the Borrows table, indicating the original borrowing transaction.
+rbook_id (Foreign Key): Links to the Borrows table, indicating the original borrowing transaction.
 <br>
 rmember_id: indicating the original borrowing member_id.
 <br>
