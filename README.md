@@ -8,6 +8,7 @@ Welcome to the Library Management System project! This Python-based application,
 <br>
 <br>
 Key Features
+
 <br>
 Add Book: Easily add new books to the library database with the click of a button.
 <br>
@@ -50,7 +51,8 @@ language: langauge in which the book is available in library.
 <br>
 book_status: Indicates whether the book is available for borrowing.
 <br>
-![Book Table Screenshot](Screenshot 2024-01-01 191542.png)
+
+![Book Table](https://github.com/SaurabhUpadhyay13/Libraray-Management-System/assets/126344704/291769e7-e3b9-4e66-98b6-48b1cb82af51)
 
 
 <br>
@@ -70,7 +72,10 @@ member_name: Name of the member.
 <br>
 phone: Phone number of the member.
 <br>
+![Member Table](https://github.com/SaurabhUpadhyay13/Libraray-Management-System/assets/126344704/f4a6a0c9-4e74-46bf-bc5e-0abba2871fd0)
+
 <br>
+
 Why Create It: The Members table helps in managing and tracking the information of individuals who are registered library members, facilitating efficient communication and record-keeping.
 <br>
 <br>
@@ -87,6 +92,9 @@ bmember_id (Foreign Key): Links to the Members table, indicating which member bo
 <br>
 bbook_id (Foreign Key): Links to the Books table, indicating which book was borrowed.
 <br>
+
+![Borrow Table](https://github.com/SaurabhUpadhyay13/Libraray-Management-System/assets/126344704/d3f73595-bba6-4f10-893f-5b8e133cd863)
+
 <br>
 Why Create It: The Borrows table helps in tracking the borrowing history of members, allowing the library to monitor book availability and manage due dates effectively.
 <br>
@@ -106,6 +114,9 @@ rmember_id: indicating the original borrowing member_id.
 <br>
 return_date: Date when the book was returned
 <br>
+![Return Table](https://github.com/SaurabhUpadhyay13/Libraray-Management-System/assets/126344704/e8195615-14e1-4c9a-a86c-58661d3d0cd6)
+
+
 <br>
 Why Create It: The Returns table complements the Borrows table, providing a log of returned books. It helps in calculating any overdue fines, updating book availability, and maintaining accurate records of the library's collection.
 <br>
