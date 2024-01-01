@@ -7,7 +7,7 @@ Author-Saurabh Upadhyay
 Welcome to the Library Management System project! This Python-based application, utilizing MySQL for database management and the Tkinter library for the graphical user interface, is designed to streamline the operations of a library. Whether you're managing a personal collection or overseeing a larger library, this system aims to provide an efficient and user-friendly solution.
 <br>
 <br>
-Key Features
+# Key Features
 
 <br>
 Add Book: Easily add new books to the library database with the click of a button.
@@ -25,7 +25,7 @@ List Book: Choose from various options, such as viewing all books, borrowed book
 Statistics: Gain insights into the library's performance with a dedicated statistics feature.
 <br>
 <br>
-Technologies Used
+# Technologies Used
 <br>
 Python: The core programming language for the application's logic and functionality.
 <br>
@@ -35,7 +35,7 @@ Tkinter: A Python library for creating interactive and visually appealing graphi
 <br>
 <br>
 <br>
-1. Books Table:
+# 1. Books Table:
 <br>
 Purpose: This table is designed to store information about the books available in the library.
 <br>
@@ -59,7 +59,7 @@ book_status: Indicates whether the book is available for borrowing.
 Why Create It: The Books table is essential for maintaining a comprehensive catalog of all available books in the library, along with their key details.
 <br>
 <br>
-2. Members Table:
+# 2. Members Table:
 <br>
 <br>
 Purpose: This table stores information about the members or patrons of the library.
@@ -72,6 +72,7 @@ member_name: Name of the member.
 <br>
 phone: Phone number of the member.
 <br>
+
 ![Member Table](https://github.com/SaurabhUpadhyay13/Libraray-Management-System/assets/126344704/f4a6a0c9-4e74-46bf-bc5e-0abba2871fd0)
 
 <br>
@@ -79,7 +80,7 @@ phone: Phone number of the member.
 Why Create It: The Members table helps in managing and tracking the information of individuals who are registered library members, facilitating efficient communication and record-keeping.
 <br>
 <br>
-3. Borrows Table:
+# 3. Borrows Table:
 <br>
 <br>
 Purpose: This table is responsible for recording instances when a member borrows a book from the library.
@@ -99,7 +100,7 @@ bbook_id (Foreign Key): Links to the Books table, indicating which book was borr
 Why Create It: The Borrows table helps in tracking the borrowing history of members, allowing the library to monitor book availability and manage due dates effectively.
 <br>
 <br>
-4. Returns Table:
+# 4. Returns Table:
 <br>
 <br>
 Purpose: This table records instances when a member returns a borrowed book.
@@ -114,10 +115,20 @@ rmember_id: indicating the original borrowing member_id.
 <br>
 return_date: Date when the book was returned
 <br>
-![Return Table](https://github.com/SaurabhUpadhyay13/Libraray-Management-System/assets/126344704/e8195615-14e1-4c9a-a86c-58661d3d0cd6)
+
+![Return Table](https://github.com/SaurabhUpadhyay13/Libraray-Management-System/assets/126344704/46fd2f48-b059-4ba8-b699-c6452fa9e6ff)
 
 
 <br>
 Why Create It: The Returns table complements the Borrows table, providing a log of returned books. It helps in calculating any overdue fines, updating book availability, and maintaining accurate records of the library's collection.
 <br>
 <br>
+This project not only highlights my skills in Python, SQL, and Tkinter but also underscores my ability to integrate these technologies to create a functional and practical solution. The use of a relational database enhances data management, while the interactive GUI enhances user experience and engagement.
+<br>
+<br>
+By incorporating key features and technologies, this Library Management System project serves as a tangible demonstration of my capabilities in software development, database management, and graphical user interface design. It not only addresses the core requirements of a library management system but also showcases my commitment to delivering efficient and user-centric solutions.
+<br>
+<br>
+Feel free to explore the project repository to experience the functionality firsthand and gain insights into my approach to software development. Your feedback and suggestions are always appreciated. Happy exploring!
+
+![Library Management System GUI](https://github.com/SaurabhUpadhyay13/Libraray-Management-System/assets/126344704/f7f23e04-4774-478f-91ab-9c72e0754b08)
