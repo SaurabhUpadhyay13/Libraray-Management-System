@@ -50,6 +50,9 @@ language: langauge in which the book is available in library.
 <br>
 book_status: Indicates whether the book is available for borrowing.
 <br>
+![Book Table Screenshot](Screenshot 2024-01-01 191542.png)
+
+
 <br>
 Why Create It: The Books table is essential for maintaining a comprehensive catalog of all available books in the library, along with their key details.
 <br>
